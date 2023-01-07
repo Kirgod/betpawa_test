@@ -46,4 +46,4 @@ kubectl --kubeconfig /home/USER/.kube/KUBE_CINFIG -n NAMESPACE apply -f kubernet
 - Quotas
 - Network policies
 - Proper ingress
-- Proper CICD
+- Proper CICD (including structure of project, varaibles, environments, etc.)
