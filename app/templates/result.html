@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <style>
+            body { text-align: center; font-family: comic sans ms;}
+        </style>
+    </head>
+
+    <body>
+
+    <a href={{ url_for("addValueToDB") }}><h1>Get Back</h1></a>
+
+    <form method="POST">
+        <button type="button" onclick="window.location.href='{{ url_for('result') }}';">Get Result</button>
+    </form>
+
+    <div>
+        {% if result %}
+        <center>
+          {{ result }}
+        </center> 
+        {% endif %}
+    </div>
+
+    </body>
+</html>

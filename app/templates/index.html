@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <style>
+            body { text-align: center; font-family: comic sans ms;}
+        </style>
+    </head>
+
+    <body>
+
+    <form method="POST">
+        <input type="text" name="text" placeholder="Some Text">
+        <input type="submit" >
+    </form>
+
+    <form method="POST">
+        <button type="button" onclick="window.location.href='{{ url_for('result') }}';">Get Result</button>
+    </form>
+
+    <div>
+        {% if result %}
+        <center>
+          {{ result }}
+        </center> 
+        {% endif %}
+    </div>
+
+    </body>
+</html>
