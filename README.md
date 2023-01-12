@@ -8,12 +8,12 @@ BetPawa test task
 - [What should (not) be done in real project](#headers)
 
 <a name="headers"><h2>Overview</h2></a>
-Simple app on Flask, which add some text to DB and shows it.
+Simple app on Flask, which adds some text to DB and shows it.
 
 
 <a name="headers"><h2>Run locally with minikube</h2></a>
 For local run just start ```minikube_init.sh``` script which will do following steps:
-- Check minikube/docker are exists
+- Check that minikube/docker exist
 - Start minikube
 - Build docker image in minikube
 - Apply all manifest files
